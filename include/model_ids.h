@@ -432,6 +432,7 @@
 #define MODEL_DORRIE                      0x68        // dorrie_geo
 
 // other models
+#define MODEL_GETAWAY_KART				  0x73		  // getaway kart (custom)
 #define MODEL_YELLOW_COIN                 0x74        // yellow_coin_geo
 #define MODEL_YELLOW_COIN_NO_SHADOW       0x75        // yellow_coin_no_shadow_geo
 #define MODEL_BLUE_COIN                   0x76        // blue_coin_geo
