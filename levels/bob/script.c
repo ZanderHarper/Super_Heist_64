@@ -45,7 +45,7 @@ const LevelScript level_bob_entry[] = {
 		WARP_NODE(0x0A, LEVEL_BOB, 0x01, 0x0A, WARP_NO_CHECKPOINT),
 		WARP_NODE(0xF0, LEVEL_CASTLE, 0x01, 0x32, WARP_NO_CHECKPOINT),
 		WARP_NODE(0xF1, LEVEL_CASTLE, 0x01, 0x64, WARP_NO_CHECKPOINT),
-		OBJECT(0x73, 1057, 246, 802, 0, 0, 0, 0x00000000, bhvGoomba),
+		OBJECT(0x73, 1057, 246, 802, 0, 0, 0, 0x00000000, bhvGetawayKart),
 		MARIO_POS(0x01, 0, 0, 80, 0),
 		OBJECT(MODEL_STAR, 567, 1225, -1184, 0, 0, 0, (0x00 << 16), bhvStar),
 		OBJECT(MODEL_NONE, 0, 80, 0, 0, 0, 0, (0x0A << 16), bhvSpinAirborneWarp),
