@@ -400,7 +400,6 @@ const BehaviorScript bhvGetawayKart[] = {
 	END_LOOP(),
 };
 
-
 const BehaviorScript bhvStarDoor[] = {
     BEGIN(OBJ_LIST_SURFACE),
     SET_INT(oInteractType, INTERACT_DOOR),
