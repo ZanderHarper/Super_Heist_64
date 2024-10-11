@@ -392,11 +392,11 @@ enum BehaviorCommands {
 /* fast64 object exports get inserted here */
 const BehaviorScript bhvGetawayKart[] = {
 	BEGIN(OBJ_LIST_SURFACE),
-	OR_INT(oFlags, OBJ_FLAG_ACTIVE_FROM_AFAR | OBJ_FLAG_COMPUTE_DIST_TO_MARIO | OBJ_FLAG_UPDATE_GFX_POS_AND_ANGLE),
+	OR_INT(oFlags, (OBJ_FLAG_UPDATE_GFX_POS_AND_ANGLE)),
+    SET_HITBOX(/*Radius*/ 800, /*Height*/ 200),
 	LOAD_COLLISION_DATA(getaway_kart_collision),
-	BEGIN_LOOP(),
-		CALL_NATIVE(load_object_collision_model),
-	END_LOOP(),
+	CALL_NATIVE(load_object_collision_model),
+	BREAK(),
 };
 
 const BehaviorScript bhvStarDoor[] = {
