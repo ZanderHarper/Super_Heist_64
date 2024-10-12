@@ -38,12 +38,12 @@
 /**
  * Stars don't kick you out of the level (does not play nicely with vanilla).
  */
-// #define NON_STOP_STARS
+ #define NON_STOP_STARS
 
 /**
  * Bowser keys always exit the level. Only has an effect if NON_STOP_STARS is enabled.
  */
-// #define KEYS_EXIT_LEVEL
+ #define KEYS_EXIT_LEVEL
 
 /**
  * Uncomment this if you want global star IDs (useful for creating an open world hack ala MVC).

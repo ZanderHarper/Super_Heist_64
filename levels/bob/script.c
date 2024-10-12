@@ -47,7 +47,7 @@ const LevelScript level_bob_entry[] = {
 		WARP_NODE(0xF1, LEVEL_CASTLE, 0x01, 0x64, WARP_NO_CHECKPOINT),
 		OBJECT(0x73, 1057, 3, 802, 0, 0, 0, 0x00000000, bhvGetawayKart),
 		MARIO_POS(0x01, 0, 0, 80, 0),
-		OBJECT(MODEL_STAR, 567, 1225, -1184, 0, 0, 0, (0x00 << 16), bhvSpawnedStar),
+		OBJECT(MODEL_STAR, 567, 1225, -1184, 0, 0, 0, (0x00 << 16), bhvStar),
 		OBJECT(MODEL_NONE, 0, 80, 0, 0, 0, 0, (0x0A << 16), bhvSpinAirborneWarp),
 		TERRAIN(bob_area_1_collision),
 		MACRO_OBJECTS(bob_area_1_macro_objs),
